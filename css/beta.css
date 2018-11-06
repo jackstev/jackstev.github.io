@@ -1,0 +1,593 @@
+@charset "utf-8";
+/* CSS Document */
+.backgroundimgbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background:url("../images/20170306140333.png") no-repeat; background-size: 100% 100%;*/
+}
+
+.backgroundimg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: -9;
+}
+
+.autobox {
+	width: 900px;
+	height: 555px;
+	overflow: hidden;
+	box-shadow: 0 3px 20px rgba(0, 0, 0, .2);
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 5px;
+}
+
+.autoleftbox {
+	width: 450px;
+	height: 555px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	background: url("register3bg.png")/*tpa=http://www.bigbigwork.com/css/images/register3bg.png*/ no-repeat;
+	padding-top: 150px;
+}
+
+.autoleftitle {
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.autoleftpic {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.mingrenmingyan {
+	width: 310px;
+	height: 46px;
+	font-size: 12px;
+	margin: 170px auto 0 auto;
+	position: relative;
+}
+
+.mrmyautor {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.autorightbox, .waiting-invitation {
+	width: 450px;
+	height: 555px;
+	float: right;
+	position: relative;
+	background-color: #fff;
+}
+
+.waitinvititle {
+	height: 22px;
+	line-height: 22px;
+	font-size: 22px;
+	color: #7f8c8d;
+	margin-bottom: 20px;
+}
+
+.waitinvitdicurt {
+	font-size: 14px;
+	color: #7f8c8d;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.qiqcnumber {
+	color: #2c3e50;
+}
+
+.weixinrengongkefu {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 50px auto 60px auto;
+	border: 1px solid #ccc;
+}
+
+.betabox {
+	padding-top: 76px;
+	text-align: center;
+}
+
+.betalogo {
+	display: inline-block;
+	width: 148px;
+	height: 45px;
+	margin-bottom: 18px;
+	cursor: text;
+}
+
+.betalogo img {
+	width: 100%;
+	height: 100%;
+}
+
+.waiting-invitation .betalogo {
+	margin-bottom: 16px;
+}
+
+.linecolor {
+	width: 80%;
+	height: 1px;
+	margin: 0 auto;
+	background: -webkit-linear-gradient(left, #fff 10%, #d7dedc 50%, #fff 90%);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #fff 10%, #d7dedc 50%, #fff 90%);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #fff 10%, #d7dedc 50%, #fff 90%);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #fff 10%, #d7dedc 50%, #fff 90%);
+	/* 标准的语法 （必须放在最后）*/
+}
+
+.betatitle {
+	font-size: 30px;
+	line-height: 30px;
+	height: 30px;
+	color: #7f8c8d;
+	margin-bottom: 20px;
+}
+
+.betaother {
+	font-size: 12px;
+	line-height: 18px;
+	height: 36px;
+	color: #2c3e50;
+	margin-bottom: 28px;
+}
+
+.inputbox, .checkbox {
+	margin-bottom: 20px;
+}
+/*.inputleftname { display: inline-block; vertical-align: top; line-height: 35px;}*/
+.inputemail, .inputusername {
+	vertical-align: top;
+	width: 184px;
+	padding-left: 6px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 0;
+	border-bottom: 1px solid #d7dcde;
+}
+
+.inputemail:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+.inputemail::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+input.inputemail:-ms-input-placeholder {
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+input.inputemail::-webkit-input-placeholder {
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+.inputusername:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+.inputusername::-moz-placeholder { /* Mozilla Firefox 19+ */
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+input.inputusername:-ms-input-placeholder {
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+input.inputusername::-webkit-input-placeholder {
+	font-size: 12px;
+	color: #bdc3c7;
+}
+
+.FontWarning input {
+	color: #fe4365 !important;
+}
+
+.FontWarning :-moz-placeholder {
+	color: #fe4365 !important;
+}
+
+.FontWarning ::-moz-placeholder {
+	color: #fe4365 !important;
+}
+
+.FontWarning input:-ms-input-placeholder {
+	color: #fe4365 !important;
+}
+
+.FontWarning input::-webkit-input-placeholder {
+	color: #fe4365 !important;
+}
+
+.FontWarning .ButtonTitle {
+	color: #fe4365 !important;
+}
+
+.sjlybox {
+	display: inline-block;
+	vertical-align: top;
+	width: 184px;
+	height: 24px;
+}
+
+.sjlybox .BeautifulButtonBox {
+	width: 100%;
+}
+
+.sjlybox .ButtonTitle {
+	position: relative;
+	height: 24px;
+	line-height: 24px;
+	border: none;
+	background-color: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #d7dcde;
+	font-size: 12px;
+	color: #bdc3c7;
+	text-align: left;
+	padding-left: 6px;
+}
+
+.sjlybox .ButtonTitle:after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	background: url("Icon15.png")/*tpa=http://wimg.bigbigwork.com/images/Icon15.png*/ no-repeat
+		-90px 0;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
+	right: 10px;
+}
+
+.sjlybox .ButtonTitle:hover:after {
+	background-position: -90px 0px;
+}
+
+.sjlybox .ButtonTitle:hover {
+	background-color: transparent;
+}
+
+.sjlybox .ButtonTitle:hover .ButtonName {
+	color: #bdc3c7;
+}
+
+.ButtonIcon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url("Icon15.png")/*tpa=http://wimg.bigbigwork.com/images/Icon15.png*/ no-repeat
+		-90px 0;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
+	right: 10px;
+}
+
+.ButtonTitle:hover .ButtonIcon {
+	background-position: -90px 0px;
+}
+
+.sjlybox .DropDownBox .DropDownContent {
+	max-height: 162px;
+	padding-right: 18px;
+}
+
+.xianzaiqi {
+	width: 184px;
+	margin: 0 auto 10px auto;
+	font-size: 12px;
+	color: #7f8c8d;
+	text-align: left;
+}
+
+.sjlybox .ButtonName {
+	width: auto;
+	text-align: left;
+	padding-left: 6px;
+	border: none;
+	line-height: 24px;
+}
+
+button.ButtonTitle.ButtonChecked {
+	background-color: transparent;
+	color: #bdc3c7;
+	border-color: #d7dcde;
+}
+
+.ButtonChecked .ButtonIcon {
+	background-position: -90px 0px;
+}
+
+.DropDownBox {
+	top: 35px;
+}
+
+.DropDownBox .DropDownArrow {
+	top: -4px;
+	right: 15px;
+}
+
+.DropDownContent {
+	text-align: left;
+}
+
+.yuyue {
+	width: 128px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #fe3456;
+	font-size: 14px; /*margin-bottom: 80px; margin-top: 40px;*/
+	border-radius: 5px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 80px;
+}
+
+.yuyue:hover {
+	background-color: #fc9d9a;
+}
+
+.yuyue:active {
+	background-color: #fe3456;
+}
+
+.DropDownBox .DropDownContent .SuerCheck {
+	font-size: 12px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	color: #d7dcde;
+}
+
+/*.DropDownBox.markchecked .DropDownContentlist:hover { color: #fc9d9a; background-color: transparent; }
+.DropDownBox.markchecked .DropDownContent .DropDownChecked { color:#fe4365; background-color: transparent;}
+
+.DropDownBox.markchecked .DropDownContent { padding-bottom: 38px; }
+.DropDownBox.markchecked .DropDownContentlist { padding-left: 35px; position: relative;  }
+.DropDownBox.markchecked .DropDownContentlist:before {
+	content: ""; display: block;
+	width: 15px; height: 15px;
+	background: url(../images/Icon15.png) no-repeat -105px -90px; 
+	position: absolute; 
+	margin: auto;
+	left: 10px;
+	top: 0; 
+	bottom: 0;	
+}
+.DropDownBox.markchecked .DropDownContentlist:hover:before { background-position: -105px -75px;}
+.DropDownBox.markchecked .DropDownContentlist.DropDownChecked:before { background-position: -90px -75px;}
+.DropDownBox.markchecked .DropDownContentlist.DropDownChecked:hover:before { background-position: -105px -60px;}
+
+.cancelandsurebox { width: 110px; height:25px; margin:0 auto; overflow: hidden; display: none; position: absolute; margin:auto; left: 0; right: 0; bottom: 10px; }
+.markchecked .cancelandsurebox { display: block; }
+*/
+.spanand {
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.canceland {
+	background-color: #bdc3c7;
+	cursor: pointer;
+}
+
+.canceland:hover {
+	background-color: #fc9d9a;
+}
+
+.sureand {
+	background-color: #d7dcde;
+	cursor: text;
+}
+
+.sureand.sureandsure {
+	background-color: #fe4365;
+	cursor: pointer;
+}
+
+@media ( max-width :1380px) {
+}
+
+@media ( max-width :768px) {
+}
+
+@media ( max-width :480px) {
+	.autobox {
+		width: 100%;
+	}
+	.autoleftbox {
+		display: none;
+	}
+	.waiting-invitation, .autorightbox {
+		width: 100%;
+	}
+}
+/*edit by laiyuanling*/
+.betatitle2 {
+	font-size: 20px;
+	color: #2c3e50;
+	margin-bottom: 40px;
+}
+
+.inputemail, .inputusername, .inputlist input {
+	width: 268px;
+	height: 36px;
+	padding-left: 12px;
+	font-size: 14px;
+	color: #7f8c8d;
+	background: #f0f0f0;
+	border-radius: 3px;
+	border-bottom: 0;
+	line-height: 36px;
+}
+
+.inputlist input:-ms-input-placeholder {
+	font-size: 14px;
+	color: #7f8c8d;
+}
+
+.inputlist input::-moz-placeholder {
+	font-size: 14px;
+	color: #7f8c8d;
+}
+
+.inputlist input:-moz-placeholder {
+	font-size: 14px;
+	color: #7f8c8d;
+}
+
+.inputlist input::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #7f8c8d;
+}
+
+.sjlybox {
+	width: 268px;
+	height: 36px;
+}
+
+.sjlybox .ButtonTitle {
+	width: 268px;
+	height: 36px;
+	padding-left: 12px;
+	line-height: 36px;
+}
+
+.inputbox {
+	margin: 0 0 6px 0;
+}
+
+ul.inputbox {
+	text-align: center;
+}
+
+ul.inputbox .inputlist {
+	width: 268px;
+	height: 36px;
+	margin: 0 auto 6px auto;
+}
+
+.promptsbox {
+	background: none;
+}
+
+.getinvitationcode, .countdown {
+	display: block;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	cursor: pointer;
+	color: #2c3e50;
+	position: absolute;
+	top: 0;
+	right: 12px;
+	background: none;
+	padding-left: 10px;
+}
+
+.inputlist input:-webkit-autofill {
+	-webkit-box-shadow: none;
+}
+
+.inputlist.yaoqingma input {
+	background: none;
+}
+
+input#yqm {
+	font-size: 12px;
+	height: 36px;
+	line-height: 36px;
+}
+
+.inputlist.yaoqingma {
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	background: none;
+	border-radius: 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+input#yqm input:-ms-input-placeholder {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+input#yqm::-moz-placeholder {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+input#yqm:-moz-placeholder {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+input#yqm::-webkit-input-placeholder {
+	font-size: 12px;
+	color: #b5b5b5;
+}
+
+.inputlist .submitbutton {
+	width: 268px;
+	height: 36px;
+	margin-bottom: 12px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+ul.inputbox .inputlist.submit_reg {
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
+
+ul.inputbox .islittlespecial {
+	margin-top: 20px;
+}
